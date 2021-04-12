@@ -1,6 +1,6 @@
 # Brushless ESC Bracket for 2WD Traxxas Slash
 
-The 2WD Traxxas Slash is a great entry point for 1/10 scale RC trucks. It has a solid chassis and is *relatively* inexpensive.
+The [2WD Traxxas Slash](https://traxxas.com/products/models/electric/58034-1slash) is a great entry point for 1/10 scale RC trucks. It has a solid chassis and is *relatively* inexpensive.
 
 Wanting a bit more power, but not wanting to spend too much money, I decided to purchase a [Brushless Motor/ESC Kit](https://amzn.to/323WqeT) from Amazon. The motor/ESC combo are far more powerful than the stock hardware, but the ESC has no obvious mounting features.
 
