@@ -19,7 +19,7 @@ When doublestick tape was no longer enough I decided to design a **Brushless ESC
 - Easy to print design requires no supports during FDM printing
 
 ## Pictures
-![The Printed Bracket](https://user-images.githubusercontent.com/5865025/114326825-98c2a680-9b04-11eb-93e1-d71c0f08cb84.png)
-![Available Mounting Bosses](https://user-images.githubusercontent.com/5865025/114326811-8a748a80-9b04-11eb-9988-8127d61d9793.png)
-![The Printed Bracket Atop the Mounting Bosses](https://user-images.githubusercontent.com/5865025/114326844-aed06700-9b04-11eb-9ed2-81080e429e69.png)
-![ESC Installed and Cables Routed](https://user-images.githubusercontent.com/5865025/114326869-c0197380-9b04-11eb-924f-c3a4ee56cc3f.png)
+![The Printed Bracket](photos/IMG_3679.jpg)
+![Available Mounting Bosses](photos/IMG_3681.jpg)
+![The Printed Bracket Atop the Mounting Bosses](photos/IMG_3682.jpg)
+![ESC Installed and Cables Routed](photos/IMG_3683.jpg)
