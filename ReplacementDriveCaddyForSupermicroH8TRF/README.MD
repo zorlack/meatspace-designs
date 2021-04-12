@@ -8,7 +8,7 @@ This is a rudimentary disk caddy for an 8-blade server Supermicro server chassis
 
 ## Download
 
-- [DriveCaddyV3.stl](DriveCaddyV3.stl)
+- [DriveCaddyV3.stl](DriveCaddyV3.stl?raw=1)
 
 ## Pictures
 
