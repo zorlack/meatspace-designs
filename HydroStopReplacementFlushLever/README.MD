@@ -10,8 +10,8 @@ Here is 3d printable replacement flush lever for your Danco HydroStop flush mech
 
 ## Pictures
 
-![The broken flush lever](photos/IMG_3384.jpg)
-![The cable-operated flush mechanism](photos/IMG_3382.jpg)
-![The replacement part on the printer](photos/IMG_3389.jpg)
-![The new flush lever installed](photos/IMG_3395.jpg)
-![The new flush lever connected](photos/IMG_3397.jpg)
+![The broken flush lever](images/IMG_3384.jpg)
+![The cable-operated flush mechanism](images/IMG_3382.jpg)
+![The replacement part on the printer](images/IMG_3389.jpg)
+![The new flush lever installed](images/IMG_3395.jpg)
+![The new flush lever connected](images/IMG_3397.jpg)
