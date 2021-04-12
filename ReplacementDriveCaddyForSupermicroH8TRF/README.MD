@@ -6,6 +6,10 @@ I needed to fire up an older Supermicro blade chassis, but we'd lost or discarde
 
 This is a rudimentary disk caddy for an 8-blade server Supermicro server chassis. The caddy is designed simply to support the front of the drive letting the sata connector support the rear. As far as I know it should fit any H8TRF.
 
+## Download
+
+- [DriveCaddyV3.stl](DriveCaddyV3.stl)
+
 ## Pictures
 
 ![The caddy installed on a disk sitting atop the chassis](images/1.jpg)
