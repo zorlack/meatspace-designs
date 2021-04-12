@@ -10,6 +10,10 @@ When doublestick tape was no longer enough I decided to design a **Brushless ESC
 
 [TraxxasSlashESCMount.STL](TraxxasSlashESCMount.STL) is an easy-to-print mounting bracket for the [RCRunning B3650](https://amzn.to/323WqeT) ESC which fits perfectly atop the Traxxas Slash's 48mm mounting bosses. 
 
+## Download
+
+- [TraxxasSlashESCMount.STL](TraxxasSlashESCMount.STL?raw=1)
+
 ## Features
 - Securely holds the ESC during bashing
 - Does not interfere with airflow
