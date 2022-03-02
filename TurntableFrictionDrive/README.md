@@ -1,10 +1,10 @@
-# Turntable Friction Drive Project
+# Turntable Traction Drive Project
 
 ## Problem
 
 Staples Players was looking for a way to add some automation and motion to its production of Disney's Descendants The Musical. I was interested in creating a solution which could be applied generically to any of the typical turntable configurations they use.
 
-I decided to make a drive unit to rotate a turntable by applying a friction wheel against the edge of the table. Such a device would be easy to integrate in most sets where the turntable sits on top of the stage floor.
+I decided to make a drive unit to rotate a turntable by applying a traction wheel against the edge of the table. Such a device would be easy to integrate in most sets where the turntable sits on top of the stage floor.
 
 ## Design
 
