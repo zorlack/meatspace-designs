@@ -42,7 +42,7 @@ When testing we found that a far simpler solution was to use ratchet straps to d
 
 Chain based system must be kept in tension to keep the chain from slipping off the drive sprocket. In order to apply tension to the system we mounted the drive motor on top of an adjustable sled from McMaster. However, we noticed too late that the sled is meant to adjust the position of a motor mounted perpendicularly to the track of the sled. My design called for the motor to be mounted parallel with the track.
 
-![Motor Modifications](images/motor-mods.jpg]
+![Motor Modifications](images/motor-mods.jpg)
 
 In order to mount the motor in this orientation we had to drill two additional holes in the motor's NEMA 146TC mounting plate. Once drilled we could use the drive seld to tension the chain and then crank down the motor bolts to lock it in place.
 
@@ -50,12 +50,18 @@ In order to mount the motor in this orientation we had to drill two additional h
 
 Because I didn't know how much force would be required to turn a loaded-turntable I wasn't able to do any real load calculations. Without this knowlege it seemed the best bet was to over-build the system. So I opted for a design based on plasma-cut 1/4" A36 mild steel.
 
+![Parts Fitup](images/parts-fitup.jpg)
+
 I made a tab-and-slot design such that when assembled the machine would (hopefully) hold itself square long enough for me to weld it together. I allowed for 1/16th of clearance between my tabs and my slots and verified that the steel show could hold 1/16 tolerance during plasma cutting. Their advice was that as long as no holes were smaller than 0.25" they should have no problems holding 1/16" tol.
+
+![Initial Welds](images/initial-welds.jpg)
 
 The biggest problem with 1/4" steel is that my welder is only barely powerful enough to weld it. I ended up using .030 flux-core wire. Flux-core welds don't look great but they're plenty strong and I was able to get reasonable penetration even with my wimpy 120VAC welder.
 
 ## Assembly
 
 Assembly took two days, with the majority of time being spent drilling and tapping holes. All bolt holes are undersized for 3/8-24 with the idea being that plasma-cut holes are not very accurate so it's better to drill them after the fact and then tap the perfectly drilled holes. This worked fairly well but we broke plenty of bits and taps.
+
+![Drilling and Tapping](images/drilling-tapping.jpg)
 
 We found that the steel fit together perfectly on the day it arrived, but on the second day the top plate no longer fit perfectly on the welded-up sides. It seems like everything moved a little bit as it cooled down from being welded and this caused us some difficulty in assembly. Next time around we will weld the whole machine in a single session. Or perhaps keep the top tacked after the bottom is assembled.
