@@ -1,5 +1,14 @@
 # Turntable Traction Drive Project
 
+<image alt="Design Render" src="images/design-render.jpg" height=500 />
+
+## Media
+
+- Video: [Initial Bench Test](video/bench-run.mp4)
+- Video: [Startup Run](video/startup-run.mp4)
+- Video: [Full Speed Run](video/full-speed-run.mp4)
+
+
 ## Problem
 
 Staples Players was looking for a way to add some automation and motion to its production of Disney's Descendants The Musical. I was interested in creating a solution which could be applied generically to any of the typical turntable configurations they use.
@@ -24,7 +33,9 @@ With those two decisions made the next step was to make a design in Fusion 360 a
 
 In addition to the gear reduction on the front-end of the motor, I wanted to further reduce the gearing for two reasons: First, turntables typically require a large amount of effort to break free when turning. Reduced gearing would permit greater starting torque. Second, the native speed of the motor and gearing is 345 RPM (1725 RPM / 5). We want the traction drive gearing to allow us to use as much of the 0-60Hz range of the motor as possible without spinning a turntable too quickly. Therefore care was taken to use a small drive sprocket (11 teeth), a large axle-sprocket (30 teeth), and a small drive wheel (6" diameter".)
 
-I noticed early-on that because the device would sit on the floor, I wasn't going to be able to through-bolt the pillow block bearings. That means that the steel would have to be drilled and tapped, and that I would need additional thickness on the bottom layer in order to have appropriate thread engagement.
+<image alt="Right Bearing Gusset" src="images/right-gusset.jpg" height=300 />
+
+It's also worth noting that this machine will sit on the floor. Because of I wasn't going to be able to through-bolt the pillow block bearings. That means that the steel would have to be drilled and tapped, and that I would need additional thickness on the bottom layer in order to have appropriate thread engagement. I've called these parts gussets and there are three of them: Two supporting the lower bearings and one supporting the motor mount.
 
 ## Turntable Eccentricity
 
@@ -48,11 +59,15 @@ In order to mount the motor in this orientation we had to drill two additional h
 
 ## Material
 
-Because I didn't know how much force would be required to turn a loaded-turntable I wasn't able to do any real load calculations. Without this knowlege it seemed the best bet was to over-build the system. So I opted for a design based on plasma-cut 1/4" A36 mild steel.
+Because I didn't know how much force would be required to turn a loaded-turntable I wasn't able to do any real load calculations. Without this knowlege it seemed the best bet was to over-build the system. So I designed around plasma-cut 1/4" A36 mild steel.
+
+<image alt="Steel Order" src="images/steel-qa.jpg" height=300 />
+
+I made a tab-and-slot design such that when assembled the machine would (hopefully) hold itself square long enough for me to weld it together. I allowed for 1/16th of clearance between my tabs and my slots and verified that the steel shop could hold 1/16 tolerance during plasma cutting. Their advice was that as long as no holes were smaller than 0.25" they should have no problems holding 1/16" tol.
 
 <image alt="Parts Fitup" src="images/parts-fitup.jpg" height=300 />
 
-I made a tab-and-slot design such that when assembled the machine would (hopefully) hold itself square long enough for me to weld it together. I allowed for 1/16th of clearance between my tabs and my slots and verified that the steel show could hold 1/16 tolerance during plasma cutting. Their advice was that as long as no holes were smaller than 0.25" they should have no problems holding 1/16" tol.
+Chapin and Bangs in Bridgeport, CT made the steel parts. They were made out of A36 steel, plasma cut delivered dry. The cost was $810 with delivery.
 
 <image alt="Initial Welds" src="images/initial-welds.jpg" height=300 />
 
@@ -65,3 +80,10 @@ Assembly took two days, with the majority of time being spent drilling and tappi
 <image alt="Drilling and Tapping" src="images/drilling-tapping.jpg" height=300 />
 
 We found that the steel fit together perfectly on the day it arrived, but on the second day the top plate no longer fit perfectly on the welded-up sides. It seems like everything moved a little bit as it cooled down from being welded and this caused us some difficulty in assembly. Next time around we will weld the whole machine in a single session. Or perhaps keep the top tacked after the bottom is assembled.
+
+<image alt="Right Drive Wheel" src="images/bottom-chain.jpg" height=300 />
+
+The right-angle (Left/Right AKA Top/Bottom) configuration of the gear-reducer allows us to run one sprocket on top and another sprocket on the bottom. This is useful since 7/8" ID sprockets are quite beefy. Too beefy to fit both chains on a single output shaft from the gear-reducer. For the right-hand drive wheel we connected a ANSI #40 chain to an 11 tooth sprocket mounted on the bottom shaft.
+
+<image alt="Left Drive Wheel" src="images/top-chain.jpg" height=300 />
+On the left-hand of the machine we ran chain from a sprocket mounted on the top shaft of the gear-reducer. On this machine the chain is a bit too close to the top plate. In our next revision we'll try to lower the motor 1/4" by eliminating the motor gusset.
