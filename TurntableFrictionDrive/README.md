@@ -5,9 +5,9 @@
 ## Media
 
 - PDF: [Parts Overview](TurntableTractionDrive-PartsOverview.pdf)
-- Video: [Initial Bench Test](video/bench-run.mp4)
-- Video: [Startup Run](video/startup-run.mp4)
-- Video: [Full Speed Run](video/full-speed-run.mp4)
+- Video: [Initial Bench Test](https://youtu.be/k4kjQTp1Dig)
+- Video: [Startup Run](https://youtu.be/NJ8Oi7qZh6Y)
+- Video: [Full Speed Run](https://youtu.be/5Oqq8lbxnWo)
 
 
 ## Problem
