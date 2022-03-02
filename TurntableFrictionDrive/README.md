@@ -24,7 +24,15 @@ With those two decisions made the next step was to make a design in Fusion 360 a
 
 ## Turntable Eccentricity
 
-Turntables aren't perfect circles, and they're not always perfectly centered, so I needed somehow to keep the machine pressed against the side of the turntable even if it's out-of-true. I designed the machine with four 200lb springs which could be set to provide significant preload against the side of the turntable. But when testing we found that a far simpler solution was to use ratchet straps to draw the machine up against the side of the turntable and hold it there. Ratchet straps have some natural elasticity and therefore provide similar preload to a spring-based solution with substantially easier integration. (We can turn a large turntable witout even bolting the machine to the deck!)
+Turntables aren't perfect circles, and they're not always perfectly centered, so I needed somehow to keep the machine pressed against the side of the turntable even if it's out-of-true. I designed the machine with four 200lb springs which could be set to provide significant preload against the side of the turntable. 
+
+![Pusher Springs](images/pusher-plate.jpg)
+
+The springs are held captive by a 5/16" bolt welded to the pusher plate. The springs press against a piece of 1.5" angle iron which is screwed through the two slots to the stage floor. This allows the whole machine to slide back and forth in response to bulges or dips in the circumference of the turntable.
+
+![Rachet Straps](images/ratchet-straps.jpg)
+
+When testing we found that a far simpler solution was to use ratchet straps to draw the machine up against the side of the turntable and hold it there. Ratchet straps have some natural elasticity and therefore provide similar preload to a spring-based solution with substantially easier integration. (We can turn a large turntable witout even bolting the machine to the deck!)
 
 ## Chain Tension
 
