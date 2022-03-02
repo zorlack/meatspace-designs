@@ -4,6 +4,7 @@
 
 ## Media
 
+- PDF: [Parts Overview](TurntableTractionDrive-PartsOverview.pdf)
 - Video: [Initial Bench Test](video/bench-run.mp4)
 - Video: [Startup Run](video/startup-run.mp4)
 - Video: [Full Speed Run](video/full-speed-run.mp4)
