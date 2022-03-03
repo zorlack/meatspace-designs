@@ -8,26 +8,29 @@ Feel free to make your own or iterate on this in any way. If you do happen to bu
 
 ## Resources
 
-- PDF: [Parts Overview](TurntableTractionDrive-PartsOverview.pdf)
-- Parts: [Bill Of Materials](BOM.md)
-- Video: [Initial Bench Test](https://youtu.be/k4kjQTp1Dig)
+- [Parts Overview](TurntableTractionDrive-PartsOverview.pdf)
+- [Bill Of Materials](BOM.md)
+- [Custom Steel Parts](dxfs/)
+- [Initial Bench Test (video)](https://youtu.be/k4kjQTp1Dig)
   
   [![Bench Test](video/bench-run-small.gif)](https://youtu.be/k4kjQTp1Dig)
 
-- Video: [Startup Run](https://youtu.be/NJ8Oi7qZh6Y)
+- [Startup Run (video)](https://youtu.be/NJ8Oi7qZh6Y)
 
   [![Startup Run](video/startup-run-small.gif)](https://youtu.be/NJ8Oi7qZh6Y)
 
-- Video: [Full Speed Run](https://youtu.be/5Oqq8lbxnWo)
+- [High Speed Run (video)](https://youtu.be/5Oqq8lbxnWo)
 
-  [![Full Speed Run](video/full-speed-run-small.gif)](https://youtu.be/5Oqq8lbxnWo)
+  [![High Speed Run](video/full-speed-run-small.gif)](https://youtu.be/5Oqq8lbxnWo)
 
 ## Turntable Traction Drive Specifications
 
 | Traction Drive Feature |  Detail |
 | -------------- | ------------------------------|
+| Design Units | **INCHES** |
 | Height | 9.875" |
 | Width | 32.875" |
+| Depth |  33" |
 | Weight | #UNKNOWN# |
 | Number of Parts | 60 |
 | Minimum Turntable Size | 7' Diameter |
@@ -37,7 +40,7 @@ Feel free to make your own or iterate on this in any way. If you do happen to bu
 
 My motor decision was based on what I had lying around. You may easily sub in your own motor, but for simplicity of integration try to pick a motor matching NEMA Frame 145TC. Otherwise you may have to drill new holes in the `Base Plate` and `Motor Gusset`.
 
-| Motor Feature |  Detail |
+| Powerplant Feature |  Detail |
 | -------------- | ------------------------------|
 | Model | General Electric 2HP TEFC (5KE48WN8167) |
 | Speed | 1725 RPM at 60Hz |
@@ -79,15 +82,14 @@ My first idea was to use a motor with a gear reduction and a triangular chain co
 
 <image alt="Design Layout" src="images/design-layout.jpg" width=400 />
 
-Moving away from the triangular configuration I moved towards a centrally mounted motor with two chains, one going to each drive shaft. I also ditched the idea of pneumatic wheels and switch to an off-the-shelf keyed drive roller from McMaster. This simplified sourcing and answered the question: How do I attach the drive shaft to the wheel.
+Moving away from the single-chain configuration I moved towards a centrally mounted motor with two chains, one going to each drive shaft. I also ditched the idea of pneumatic wheels and prefering instead an off-the-shelf keyed drive roller from McMaster. This simplified sourcing and answered the question: How do I attach the drive shaft to the wheel.
 
 <image alt="Design Render" src="images/design-render.jpg" width=400 />
 
-With those two decisions made the next step was to make a design in Fusion 360 and start selecting components. I started with the motor. I was eager to use a motor I had sitting on the shelf: A 3 Phase 2HP GE Motor (NEMA Frame 145TC. GE Model 5KE48WN8167) with a Morse 5:1 right-angle gear reduction (Morse 175Q140LR5.) This is a fairly beefy motor with a significant gear reduction.
+With those two decisions made the next step was to make a design in Fusion 360 and start selecting components. I started with the power source. I was eager to use a motor I had sitting on the shelf: A 3 Phase 2HP GE Motor (NEMA Frame 145TC. GE Model 5KE48WN8167) with a Morse 5:1 right-angle gear reduction (Morse 175Q140LR5.) This is a fairly beefy motor with a significant gear reduction.
 
-| Component Ratios  | | | |
-| -- | ------ | -- | -- |
 |    |  Motor Shaft | Gear Box Output | Output Wheel |
+| -- | ------ | -- | -- |
 | Ratio | 1:1 (1.0) | 5:1 (.20) | 11:30 (.36) |
 | RPM @ 60Hz | 1725 RPM | 345 RPM | 124 RPM |
 
@@ -101,11 +103,11 @@ In addition to the gear reduction on the front-end of the motor, I wanted to fur
 | 16' Diameter Turntable Max Speed | 194 FPM ÷ 50' | 3.8 RPM |
 | 24' Diameter Turntable Max Speed | 194 FPM ÷ 75' | 2.6 RPM |
 
-**Integration Note:** *If you find that the drive speed is not large enough for your large turntable design, your best bet, depending on your choise of motor and VFD, is to overdrive the motor past 60Hz. (Most VFDs let you run up to 360Hz, but you will want to check your motor and drive documentation first.) Alternatively you could swap out the 6" drive wheels for a larger diameter wheel, but be aware that this will affect the available startup torque.*
+**Integration Note:** *If you find that the drive speed is not large enough for your large turntable design, your best bet, depending on your choise of motor and VFD, is to overdrive the motor past 60Hz. (Most VFDs let you run up to 360Hz, but you will want to check your motor and drive documentation first.) Alternatively you could swap out the 6" drive wheels for a larger diameter wheel, but be aware that this will reduce the available startup torque.*
 
 <image alt="Right Bearing Gusset" src="images/right-gusset.jpg" width=400 />
 
-It's also worth noting that this machine will sit on the floor. Because of I wasn't going to be able to through-bolt the pillow block bearings. That means that the steel would have to be drilled and tapped, and that I would need additional thickness on the bottom layer in order to have appropriate thread engagement. I've called these parts gussets and there are three of them: Two supporting the lower bearings and one supporting the motor mount.
+The Turntable Traction Drive is designed to sit on a flat surface. Because of this I couldn't through-bolt the pillow block bearings. That means that the steel would have to be drilled and tapped. Because the steel is only 1/4" I would need additional thickness on the bottom layer in order to have appropriate thread engagement. To resolve this, I designed three "gusset" parts: Two supporting the lower bearings and one supporting the motor mount. They are meant to be welded down then drilled and tapped, such that the threads are continuous.
 
 ### Turntable Eccentricity
 
@@ -113,7 +115,7 @@ Turntables aren't perfect circles, and they're not always perfectly centered, so
 
 <image alt="Pusher Springs" src="images/pusher-plate.jpg" width=400 />
 
-The springs are held captive by a 5/16" bolt welded to the pusher plate. The springs press against a piece of 1.5" angle iron which is screwed through the two slots to the stage floor. This allows the whole machine to slide back and forth in response to bulges or dips in the circumference of the turntable.
+The springs are held captive by a 5/16" bolt welded to the pusher plate. The springs press against a piece of 1.5" angle iron which is lag-bolted through the two slots to the stage floor. This allows the whole machine to slide back and forth in response to bulges or dips in the circumference of the turntable.
 
 <image alt="Ratchet Straps" src="images/ratchet-straps.jpg" width=400 />
 
