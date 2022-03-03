@@ -130,7 +130,7 @@ In order to mount the motor in this orientation we had to drill two additional h
 
 Because I didn't know how much force would be required to turn a loaded-turntable I wasn't able to do any real load calculations. Without this knowlege it seemed the best bet was to over-build the system. So I designed around plasma-cut 1/4" A36 mild steel. 
 
-<a href="TurntableTractionDrive-PartsOverview.pdf"><image alt="Steel Order" src="images/design-overview.jpg" width=300 /></a>
+<a href="TurntableTractionDrive-PartsOverview.pdf"><image alt="Steel Order" src="images/design-sample.jpg" width=400 /></a>
 
 I made a tab-and-slot design such that when assembled the machine would (hopefully) hold itself square long enough for me to weld it together. I allowed for 1/16th of clearance between my tabs and my slots and verified that the steel shop could hold 1/16 tolerance during plasma cutting. Their advice was that as long as no holes were smaller than 0.25" they should have no problems holding 1/16" tol.
 
