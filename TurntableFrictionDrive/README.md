@@ -51,13 +51,13 @@ In order to vary the speed of drive motor we must use a Variable Frequency Drive
 | Output Power | 0.75 KW (1 HP) |
 | Output Range | 0 - 360Hz |
 
-## Problem
+## Design
 
 Staples Players was looking for a way to add some automation and motion to its production of Disney's Descendants The Musical. I was interested in creating a solution which could be applied generically to any of the typical turntable configurations they use.
 
 I decided to make a drive unit to rotate a turntable by applying a traction wheel against the edge of the table. Such a device would be easy to integrate in most sets where the turntable sits on top of the stage floor.
 
-## Design
+### Considerations
 
 Using drive wheels to turn a turntable seemed pretty straight forward. I'm pretty sure I've seen carnival rides driven in this manner. As a gut-check I did a bit of marketplace research and found that such devices do exist.
 
@@ -79,7 +79,7 @@ In addition to the gear reduction on the front-end of the motor, I wanted to fur
 
 It's also worth noting that this machine will sit on the floor. Because of I wasn't going to be able to through-bolt the pillow block bearings. That means that the steel would have to be drilled and tapped, and that I would need additional thickness on the bottom layer in order to have appropriate thread engagement. I've called these parts gussets and there are three of them: Two supporting the lower bearings and one supporting the motor mount.
 
-## Turntable Eccentricity
+### Turntable Eccentricity
 
 Turntables aren't perfect circles, and they're not always perfectly centered, so I needed somehow to keep the machine pressed against the side of the turntable even if it's out-of-true. I designed the machine with four 200lb springs which could be set to provide significant preload against the side of the turntable. 
 
@@ -91,7 +91,7 @@ The springs are held captive by a 5/16" bolt welded to the pusher plate. The spr
 
 When testing we found that a far simpler solution was to use ratchet straps to draw the machine up against the side of the turntable and hold it there. Ratchet straps have some natural elasticity and therefore provide similar preload to a spring-based solution with substantially easier integration. (We can turn a large turntable witout even bolting the machine to the deck!)
 
-## Chain Tension
+### Chain Tension
 
 Chain based system must be kept in tension to keep the chain from slipping off the drive sprocket. In order to apply tension to the system we mounted the drive motor on top of an adjustable sled from McMaster. However, we noticed too late that the sled is meant to adjust the position of a motor mounted perpendicularly to the track of the sled. My design called for the motor to be mounted parallel with the track.
 
@@ -99,7 +99,7 @@ Chain based system must be kept in tension to keep the chain from slipping off t
 
 In order to mount the motor in this orientation we had to drill two additional holes in the motor's NEMA 146TC mounting plate. Once drilled we could use the drive seld to tension the chain and then crank down the motor bolts to lock it in place.
 
-## Material
+### Material
 
 Because I didn't know how much force would be required to turn a loaded-turntable I wasn't able to do any real load calculations. Without this knowlege it seemed the best bet was to over-build the system. So I designed around plasma-cut 1/4" A36 mild steel.
 
