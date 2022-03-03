@@ -163,3 +163,30 @@ The right-angle (Left/Right AKA Top/Bottom) configuration of the gear-reducer al
 <image alt="Left Drive Wheel" src="images/top-chain.jpg" width=400 />
 
 On the left-hand of the machine we ran chain from a sprocket mounted on the top shaft of the gear-reducer. On this machine the chain is a bit too close to the top plate. In our next revision we'll try to lower the motor 1/4" by eliminating the motor gusset.
+
+## VFD Configuration
+
+**Note:** These notes are only really useful for the Hitachi L-100. If you're using another VFD consult your documentation.
+
+`P24` provides a 24V field reference voltage for use when powering the Control Terminals.
+
+When configured correctly we desire the following outcome:
+
+- To tell the turntable to run forward short `P24` to `PIN 1`.
+- To tell the turntable to run in revers short `P24` to `PIN 2`.
+
+### VFD Parameters
+
+| Parameter | Value | Notes |
+| -- | -- | -- |
+| `a01` | `00` | `00`=Keypad/Potentiometer, `01`=Control Terminals, `02`=F01 Settings |
+| `a02` | `02` | `01`=Control Terminals, `02`=Keypad Run Key |
+| `a02` | `02` | `01`=Control Terminals, `02`=Keypad Run Key |
+| `a20` | `nn` | Set the target frequency for a multispeed mode.... |
+| `a61` | `60` | Set a hard limit on the output frequency of the VFD to never overdrive the motor. |
+| `a04` | `60` | Set the "Base" Frequency. (The frequency at which the VFD emits full voltage) |
+| `a05` | `60` | Set the "Max" Frequency (The frequency allowed during manual opeation) |
+| `a97` | `00` | Set the Acceleration Curve: `00`=Linear, `01`=S-Curve |
+| `a97` | `00` | Set the Deceleration Curve: `00`=Linear, `01`=S-Curve |
+| `c01` | `00` | Configure Terminal 1: `00`=Run Forward
+| `c02` | `01` | Configure Terminal 2: `01`=Run Reverse
