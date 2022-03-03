@@ -6,9 +6,10 @@ This is my design for a Turntable Traction Drive. It's meant to turn a large the
 
 Feel free to make your own or iterate on this in any way. If you do happen to build one, send me a picture, I'd love to share it!
 
-## Media
+## Resources
 
 - PDF: [Parts Overview](TurntableTractionDrive-PartsOverview.pdf)
+- Parts: [Bill Of Materials](BOM.md)
 - Video: [Initial Bench Test](https://youtu.be/k4kjQTp1Dig)
   
   [![Bench Test](video/bench-run-small.gif)](https://youtu.be/k4kjQTp1Dig)
@@ -56,7 +57,7 @@ In order to vary the speed of drive motor we must use a Variable Frequency Drive
 | Output Range | 0 - 360Hz |
 
 
-## Bill Of Materials
+### Bill Of Materials
 
 I've tried to use off-the-shelf parts as much as possible in order to make this design accessible. 
 
