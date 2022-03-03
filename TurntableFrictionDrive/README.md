@@ -2,6 +2,10 @@
 
 <image alt="Design Render" src="images/design-render.jpg" width=600 />
 
+This is my design for a Turntable Traction Drive. It's meant to turn a large theatrical turntable covered in sets and actors in a safe reliable way. 
+
+Feel free to make your own or iterate on this in any way. If you do happen to build one, send me a picture, I'd love to share it!
+
 ## Media
 
 - PDF: [Parts Overview](TurntableTractionDrive-PartsOverview.pdf)
@@ -23,10 +27,10 @@
 | -------------- | ------------------------------|
 | Height | 9.875" |
 | Width | 32.875" |
-| Weight | |
-| Number of Parts | |
-| Minimum Turntable Diameter | 7' |
-| Maximum Turntable Diameter | Tested to 
+| Weight | #UNKNOWN# |
+| Number of Parts | #UNKNOWN# |
+| Minimum Turntable Size | 7' Diameter |
+| Maximum Turntable Size | Proven on a 23' diameter Turntable with steel and wood scenery. |
 
 ### Powerplant Details
 
@@ -73,7 +77,23 @@ Moving away from the triangular configuration I moved towards a centrally mounte
 
 With those two decisions made the next step was to make a design in Fusion 360 and start selecting components. I started with the motor. I was eager to use a motor I had sitting on the shelf: A 3 Phase 2HP GE Motor (NEMA Frame 145TC. GE Model 5KE48WN8167) with a Morse 5:1 right-angle gear reduction (Morse 175Q140LR5.) This is a fairly beefy motor with a significant gear reduction.
 
+| Component Ratios  | | | |
+| -- | ------ | -- | -- |
+|    |  Motor Shaft | Gear Box Output | Output Wheel |
+| Ratio | 1:1 (1.0) | 5:1 (.20) | 11:30 (.36) |
+| RPM @ 60Hz | 1725 RPM | 345 RPM | 124 RPM |
+
 In addition to the gear reduction on the front-end of the motor, I wanted to further reduce the gearing for two reasons: First, turntables typically require a large amount of effort to break free when turning. Reduced gearing would permit greater starting torque. Second, the native speed of the motor and gearing is 345 RPM (1725 RPM / 5). We want the traction drive gearing to allow us to use as much of the 0-60Hz range of the motor as possible without spinning a turntable too quickly. Therefore care was taken to use a small drive sprocket (11 teeth), a large axle-sprocket (30 teeth), and a small drive wheel (6" diameter".)
+
+| Effective Speed Math | |  |
+| -- | -- | -- |
+| Drive Wheel Circumference (feet) | 2π * .25' | 1.57' Foot Circumference |
+| Linear Feet Per Minute | 124 RPM * 1.57' | 194 Feet Per Minute |
+| 7' Diameter Turntable Max Speed | 194 FPM ÷ 22' | 8.8 RPM |
+| 16' Diameter Turntable Max Speed | 194 FPM ÷ 50' | 3.8 RPM |
+| 24' Diameter Turntable Max Speed | 194 FPM ÷ 75' | 2.6 RPM |
+
+**Integration Note:** *If you find that the drive speed is not large enough for your large turntable design, your best bet, depending on your choise of motor and VFD, is to overdrive the motor past 60Hz. (Most VFDs let you run up to 360Hz, but you will want to check your motor and drive documentation first.) Alternatively you could swap out the 6" drive wheels for a larger diameter wheel, but be aware that this will affect the available startup torque.*
 
 <image alt="Right Bearing Gusset" src="images/right-gusset.jpg" width=400 />
 
