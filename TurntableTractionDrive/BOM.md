@@ -4,16 +4,16 @@
 | -- | -- | -- | -- | -- |
 | Hitachi L100-007NFU | EA | 1 | $200* | Variable Frequency Drive |
 | **Chassis** | | | | |
-| Bottom Plate | EA | 1 | -- | Custom 1/4" Steel from BottomPlate-TotalSketch.dxf |
-| Motor Gusset | EA | 1 | -- | Custom 1/4" Steel from MotorGusset-TotalSketch.dxf |
-| Right Caster Gusset | EA | 1 | -- | Custom 1/4" Steel from RightCasterGusset-TotalSketch.dxf |
-| Right Pusher Plate | EA | 1 | -- | Custom 1/4" Steel from RightPusherPlate-TotalSketch.dxf |
-| Right Side Panel | EA | 1 | -- | Custom 1/4" Steel from RightSidePanel-TotalSketch.dxf |
-| Left Caster Gusset | EA | 1 | -- | Custom 1/4" Steel from LeftCasterGusset-TotalSketch.dxf |
-| Left Pusher Plate | EA | 1 | -- | Custom 1/4" Steel from LeftPusherPlate-TotalSketch.dxf |
-| Left Side Panel | EA | 1 | -- | Custom 1/4" Steel from LeftSidePanel-TotalSketch.dxf |
-| Front Plate | EA | 1 | -- | Custom 1/4" Steel from FrontPlate-TotalSketch.dxf |
-| Top Plate | EA | 1 | -- | Custom 1/4" Steel from TopPlate-TotalSketch.dxf |
+| Bottom Plate | EA | 1 | -- | Custom 1/4" Steel from [BottomPlate-TotalSketch.dxf](dxfs/BottomPlate-TotalSketch.dxf) |
+| Motor Gusset | EA | 1 | -- | Custom 1/4" Steel from [MotorGusset-TotalSketch.dxf](dxfs/MotorGusset-TotalSketch.dxf) |
+| Right Caster Gusset | EA | 1 | -- | Custom 1/4" Steel from [RightCasterGusset-TotalSketch.dxf](dxfs/RightCasterGusset-TotalSketch.dxf) |
+| Right Pusher Plate | EA | 1 | -- | Custom 1/4" Steel from [RightPusherPlate-TotalSketch.dxf](dxfs/RightPusherPlate-TotalSketch.dxf) |
+| Right Side Panel | EA | 1 | -- | Custom 1/4" Steel from [RightSidePanel-TotalSketch.dxf](dxfs/RightSidePanel-TotalSketch.dxf) |
+| Left Caster Gusset | EA | 1 | -- | Custom 1/4" Steel from [LeftCasterGusset-TotalSketch.dxf](dxfs/LeftCasterGusset-TotalSketch.dxf) |
+| Left Pusher Plate | EA | 1 | -- | Custom 1/4" Steel from [LeftPusherPlate-TotalSketch.dxf](dxfs/LeftPusherPlate-TotalSketch.dxf) |
+| Left Side Panel | EA | 1 | -- | Custom 1/4" Steel from [LeftSidePanel-TotalSketch.dxf](dxfs/LeftSidePanel-TotalSketch.dxf) |
+| Front Plate | EA | 1 | -- | Custom 1/4" Steel from [FrontPlate-TotalSketch.dxf](dxfs/FrontPlate-TotalSketch.dxf) |
+| Top Plate | EA | 1 | -- | Custom 1/4" Steel from [TopPlate-TotalSketch.dxf](dxfs/TopPlate-TotalSketch.dxf) |
 | Material, Plasma Cutting, Delivery | JOB | 1 | $811 | Custom Steel Cuttting to 1/16 Tolerance |
 | **Input Side** | | | | |
 | 3 Phase Electric Motor | EA | 1 | $600** | General Electric 2HP TEFC 5KE48WN8167 |
