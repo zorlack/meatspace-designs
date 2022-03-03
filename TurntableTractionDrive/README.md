@@ -55,6 +55,13 @@ In order to vary the speed of drive motor we must use a Variable Frequency Drive
 | Output Power | 0.75 KW (1 HP) |
 | Output Range | 0 - 360Hz |
 
+
+## Bill Of Materials
+
+I've tried to use off-the-shelf parts as much as possible in order to make this design accessible. 
+
+A Complete Bill Of Materials is available here: [Bill Of Materials](BOM.md)
+
 ## Design
 
 Staples Players was looking for a way to add some automation and motion to its production of Disney's Descendants The Musical. I was interested in creating a solution which could be applied generically to any of the typical turntable configurations they use.
@@ -134,6 +141,7 @@ Chapin and Bangs in Bridgeport, CT made the steel parts. They were made out of A
 <image alt="Initial Welds" src="images/initial-welds.jpg" width=400 />
 
 The biggest problem with 1/4" steel is that my welder is only barely powerful enough to weld it. I ended up using .030 flux-core wire. Flux-core welds don't look great but they're plenty strong and I was able to get reasonable penetration even with my wimpy 120VAC welder.
+
 
 ## Assembly
 
