@@ -9,8 +9,9 @@ Feel free to make your own or iterate on this in any way. If you do happen to bu
 ## Resources
 
 - [Parts Overview](TurntableTractionDrive-PartsOverview.pdf)
+- [Custom Part DXFs](dxfs/)
 - [Bill Of Materials](BOM.md)
-- [Custom Steel Parts](dxfs/)
+- [License (Creative Commons Attribution 4.0 International)](../LICENSE)
 - [Initial Bench Test (video)](https://youtu.be/k4kjQTp1Dig)
   
   [![Bench Test](video/bench-run-small.gif)](https://youtu.be/k4kjQTp1Dig)
@@ -72,7 +73,7 @@ Staples Players was looking for a way to add some automation and motion to its p
 
 I decided to make a drive unit to rotate a turntable by applying a traction wheel against the edge of the table. Such a device would be easy to integrate in most sets where the turntable sits on top of the stage floor.
 
-### Considerations
+### Mechanical Considerations
 
 Using drive wheels to turn a turntable seemed pretty straight forward. I'm pretty sure I've seen carnival rides driven in this manner. As a gut-check I did a bit of marketplace research and found that such devices do exist.
 
@@ -165,6 +166,26 @@ The right-angle (Left/Right AKA Top/Bottom) configuration of the gear-reducer al
 <image alt="Left Drive Wheel" src="images/top-chain.jpg" width=400 />
 
 On the left-hand of the machine we ran chain from a sprocket mounted on the top shaft of the gear-reducer. On this machine the chain is a bit too close to the top plate. In our next revision we'll try to lower the motor 1/4" by eliminating the motor gusset.
+
+## Integration
+
+### Safety
+
+**The Turntable Traction Drive is a dangerous machine. Using it should not be taken lightly.**
+
+As it's intended use involves live actors on a rotating stage, safety must be considered seriously. As some risk is unavoidable, my analysis will focus on mitigation strategies.
+
+| Risk | Mitigation Strategy |
+| -- | -- |
+| Electrical shock hazard from VFD/Controls | **Requirement:** Ground VFD appropriately to input mains |
+| Electrical shock hazard from motor | **Requirement:** Ground motor appropriately to VFD |
+| Electrical shock hazard from machine chassis |  **Requirement:** Ground chassis appropriately to the motor chassis. |
+| Pinching hazards from rotating internal equipment and rotating top sprocket |  **Requirement:** Turntable Traction Drive must be in a fully enclosed secure area during operation. |
+| Pinching/Crushing hazards between traction wheels and turntable edge | **Requirement:** Interface between the turntable and the tractiondrive must be fully enclosed during operation. |
+| Risk of unexpected start | #UNKNOWN# Investigate VFD parameters |
+| Risk of fall due to sudden acceleration | #UNKNOWN# Investigate VFD parameters to set accel/decel. |
+| Risk of crushing | #UNKNOWN# Investigate `B_12` and current overload protection. |
+| Risk of crushing because of external scenery-based crush points. | **Requirement:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. |
 
 ## VFD Configuration
 
