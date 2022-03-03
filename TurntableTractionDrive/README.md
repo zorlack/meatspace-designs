@@ -29,7 +29,7 @@ Feel free to make your own or iterate on this in any way. If you do happen to bu
 | Height | 9.875" |
 | Width | 32.875" |
 | Weight | #UNKNOWN# |
-| Number of Parts | #UNKNOWN# |
+| Number of Parts | 60 |
 | Minimum Turntable Size | 7' Diameter |
 | Maximum Turntable Size | Proven on a 23' diameter Turntable with steel and wood scenery. |
 
