@@ -2,7 +2,7 @@
 
 <image alt="Design Render" src="images/design-render.jpg" width=600 />
 
-This is my design for a Turntable Traction Drive. It's meant to turn a large theatrical turntable covered in sets and actors in a safe reliable way. 
+This is my design for a Turntable Traction Drive. It's meant to turn a large theatrical turntable covered in sets and actors in a safe reliable way. It can be built for less than $3000 USD.
 
 Feel free to make your own or iterate on this in any way. If you do happen to build one, send me a picture, I'd love to share it!
 
@@ -128,11 +128,15 @@ In order to mount the motor in this orientation we had to drill two additional h
 
 ### Material
 
-Because I didn't know how much force would be required to turn a loaded-turntable I wasn't able to do any real load calculations. Without this knowlege it seemed the best bet was to over-build the system. So I designed around plasma-cut 1/4" A36 mild steel.
+Because I didn't know how much force would be required to turn a loaded-turntable I wasn't able to do any real load calculations. Without this knowlege it seemed the best bet was to over-build the system. So I designed around plasma-cut 1/4" A36 mild steel. 
+
+<a href="TurntableTractionDrive-PartsOverview.pdf"><image alt="Steel Order" src="images/design-overview.jpg" width=300 /></a>
+
+I made a tab-and-slot design such that when assembled the machine would (hopefully) hold itself square long enough for me to weld it together. I allowed for 1/16th of clearance between my tabs and my slots and verified that the steel shop could hold 1/16 tolerance during plasma cutting. Their advice was that as long as no holes were smaller than 0.25" they should have no problems holding 1/16" tol.
 
 <image alt="Steel Order" src="images/steel-qa.jpg" width=400 />
 
-I made a tab-and-slot design such that when assembled the machine would (hopefully) hold itself square long enough for me to weld it together. I allowed for 1/16th of clearance between my tabs and my slots and verified that the steel shop could hold 1/16 tolerance during plasma cutting. Their advice was that as long as no holes were smaller than 0.25" they should have no problems holding 1/16" tol.
+I provided the steel shop with a flat DXF file for each part with **INCHES** as the unit. They sent me back some fully dimensioned scans for me to verify.
 
 <image alt="Parts Fitup" src="images/parts-fitup.jpg" width=400 />
 
