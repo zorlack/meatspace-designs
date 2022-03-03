@@ -17,6 +17,39 @@
 
   [![Full Speed Run](video/full-speed-run-small.gif)](https://youtu.be/5Oqq8lbxnWo)
 
+## Turntable Traction Drive Specifications
+
+| Traction Drive Feature |  Detail |
+| -------------- | ------------------------------|
+| Height | 9.875" |
+| Width | 32.875" |
+| Weight | |
+| Number of Parts | |
+| Minimum Turntable Diameter | 7' |
+| Maximum Turntable Diameter | Tested to 
+
+### Powerplant Details
+
+My motor decision was based on what I had lying around. You may easily sub in your own motor, but for simplicity of integration try to pick a motor matching NEMA Frame 145TC. Otherwise you may have to drill new holes in the `Base Plate` and `Motor Gusset`.
+
+| Motor Feature |  Detail |
+| -------------- | ------------------------------|
+| Model | General Electric 2HP TEFC (5KE48WN8167) |
+| Speed | 1725 RPM at 60Hz |
+| Layout | NEMA Frame 145TC |
+| Gearhead | Morse 175Q140LR5 |
+| Gearhead Ratio | 5:1 |
+
+### Control Details
+
+In order to vary the speed of drive motor we must use a Variable Frequency Drive (VFD). The VFD will be responsible for managing the speed and acceleration of the traction drive. Choosing the right motor controller is therefore key to the reliability and safety of the system. 
+
+| VFD Feature |  Detail |
+| -------------- | ------------------------------|
+| Model | Hitachi L-100 (L100-007NFU)  |
+| Input Power | 120VAC 15A |
+| Output Power | 0.75 KW (1 HP) |
+| Output Range | 0 - 360Hz |
 
 ## Problem
 
@@ -76,7 +109,7 @@ I made a tab-and-slot design such that when assembled the machine would (hopeful
 
 <image alt="Parts Fitup" src="images/parts-fitup.jpg" width=400 />
 
-Chapin and Bangs in Bridgeport, CT made the steel parts. They were made out of A36 steel, plasma cut delivered dry. The cost was $810 with delivery.
+Chapin and Bangs in Bridgeport, CT made the steel parts. They were made out of A36 steel, plasma cut, delivered dry. The cost was $810 with delivery.
 
 <image alt="Initial Welds" src="images/initial-welds.jpg" width=400 />
 
@@ -94,5 +127,6 @@ We found that the steel fit together perfectly on the day it arrived, but on the
 
 The right-angle (Left/Right AKA Top/Bottom) configuration of the gear-reducer allows us to run one sprocket on top and another sprocket on the bottom. This is useful since 7/8" ID sprockets are quite beefy. Too beefy to fit both chains on a single output shaft from the gear-reducer. For the right-hand drive wheel we connected a ANSI #40 chain to an 11 tooth sprocket mounted on the bottom shaft.
 
-<image alt="Left Drive Wheel" src="images/top-chain.jpg"width=400 />
+<image alt="Left Drive Wheel" src="images/top-chain.jpg" width=400 />
+
 On the left-hand of the machine we ran chain from a sprocket mounted on the top shaft of the gear-reducer. On this machine the chain is a bit too close to the top plate. In our next revision we'll try to lower the motor 1/4" by eliminating the motor gusset.
