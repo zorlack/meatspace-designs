@@ -171,19 +171,24 @@ On the left-hand of the machine we ran chain from a sprocket mounted on the top 
 
 ### Safety
 
-**The Turntable Traction Drive is a dangerous machine. Using it should not be taken lightly.**
+As it's intended use involves live actors on a rotating stage, safety must be considered seriously. 
 
-As it's intended use involves live actors on a rotating stage, safety must be considered seriously. As some risk is unavoidable, my analysis will focus on mitigation strategies.
+:warning: **The Turntable Traction Drive is a dangerous machine. Using it should not be taken lightly. Caution and care must be taken in every integration to ensure that safe operating parameters are configured.**
+
+A turntable may pose a hazard on set even when operated manually by backstage technicians, however, unlike backstage technicians this machine doesn't know to stop because a piece of scenery is late during a shift. Also, unlike a backstage technician, under the right circumstances this machine can summon inhuman amounts of torque. 
+
+:warning: **Due to its power and remoteness this machine is not designed as part of an automation system. Rather, it is intended to be manually operated by a user with direct line-of-sight to the turntable.**
+
+As some risk is unavoidable, my analysis will focus on mitigation strategies.
 
 | Risk | Mitigation Strategy |
 | -- | -- |
-| Electrical shock hazard from VFD/Controls | **Requirement:** Ground VFD appropriately to input mains |
-| Electrical shock hazard from motor | **Requirement:** Ground motor appropriately to VFD |
-| Electrical shock hazard from machine chassis |  **Requirement:** Ground chassis appropriately to the motor chassis. |
+| Electrical shock hazard | **Requirement:** Ground VFD appropriately to input mains. Ground motor appropriately to VFD. Ground chassis appropriately to the motor chassis. |
 | Pinching hazards from rotating internal equipment and rotating top sprocket |  **Requirement:** Turntable Traction Drive must be in a fully enclosed secure area during operation. |
 | Pinching/Crushing hazards between traction wheels and turntable edge | **Requirement:** Interface between the turntable and the tractiondrive must be fully enclosed during operation. |
-| Risk of unexpected start | #UNKNOWN# Investigate VFD parameters |
-| Risk of fall due to sudden acceleration | #UNKNOWN# Investigate VFD parameters to set accel/decel. |
+| Risk of unexpected start | Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
+| Risk of fall due to sudden acceleration | Use conservative values for `f01`, `f02`, and `f03`. |
+| Risk of fall due to overspeed | Set a conservative hard frequency limit using `a61` |
 | Risk of crushing | #UNKNOWN# Investigate `B_12` and current overload protection. |
 | Risk of crushing because of external scenery-based crush points. | **Requirement:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. |
 
