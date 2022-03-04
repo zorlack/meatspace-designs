@@ -184,15 +184,16 @@ As some risk is unavoidable, my analysis will focus on mitigation strategies.
 
 | Risk | Mitigation Strategy |
 | -- | -- |
-| Electrical shock hazard | **Requirement:** Ground VFD appropriately to input mains. Ground motor appropriately to VFD. Ground chassis appropriately to the motor chassis. |
-| Pinching hazards from rotating internal equipment and rotating top sprocket |  **Requirement:** Turntable Traction Drive must be in a fully enclosed secure area during operation. |
-| Pinching/Crushing hazards between traction wheels and turntable edge | **Requirement:** Interface between the turntable and the traction drive must be fully enclosed during operation. |
-| Risk of unexpected start | **Requirement:** Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
+| Electrical shock hazard | **Requirements:** Ground VFD appropriately to input mains. Ground motor appropriately to VFD. Ground chassis appropriately to the motor chassis. |
+| Pinching hazards from rotating internal equipment and rotating top sprocket |  **Requirements:** Turntable Traction Drive must be in a fully enclosed secure area during operation. |
+| Pinching/Crushing hazards between traction wheels and turntable edge | **Requirements:** Interface between the turntable and the traction drive must be fully enclosed during operation. |
+| Risk of unexpected start | **Requirements:** Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
 | Risk of fall due to sudden acceleration | Use conservative values for `f01`, `f02`, and `f03`. |
 | Risk of fall due to overspeed | Set a conservative hard frequency limit using `a61` |
 | Risk of crushing | #UNKNOWN# Investigate `B_12` and current overload protection. |
-| Risk of crushing because of external scenery-based crush points. | **Requirement:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
-| Risk of entanglement | **Requirement:** Operator must have a clear view of the turntable. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
+| Risk of crushing because of external scenery-based crush points. | **Requirements:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
+| Risk of entanglement | **Requirements:** Operator must have a clear view of the turntable. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
+| Risk of operator/integrator ignorance | **Requirements:** All safety requirements and warnings must be clearly printed on a label applied to the machine. Documentation must be made available. |
 
 #### Liability
 
