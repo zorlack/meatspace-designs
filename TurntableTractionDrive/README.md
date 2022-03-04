@@ -205,7 +205,6 @@ When configured correctly we desire the following outcome:
 | `a01` | `00` | `00`=Keypad/Potentiometer, `01`=Control Terminals, `02`=F01 Settings |
 | `a02` | `02` | `01`=Control Terminals, `02`=Keypad Run Key |
 | `a02` | `02` | `01`=Control Terminals, `02`=Keypad Run Key |
-| `a20` | `nn` | Set the target frequency for a multispeed mode.... |
 | `a61` | `60` | Set a hard limit on the output frequency of the VFD to never overdrive the motor. |
 | `a04` | `60` | Set the "Base" Frequency. (The frequency at which the VFD emits full voltage) |
 | `a05` | `60` | Set the "Max" Frequency (The frequency allowed during manual opeation) |
@@ -213,3 +212,6 @@ When configured correctly we desire the following outcome:
 | `a97` | `00` | Set the Deceleration Curve: `00`=Linear, `01`=S-Curve |
 | `c01` | `00` | Configure Terminal 1: `00`=Run Forward
 | `c02` | `01` | Configure Terminal 2: `01`=Run Reverse
+| `f01` | `nn` | **Set the target frequency** |
+| `f02` | `nn` | **Set the acceleration time** (The number of seconds it should take to get spin-up from 0Hz to `f01`Hz) |
+| `f03` | `nn` | **Set the deceleration time** (The number of seconds it should take to get spin-down from `f01`Hz to 0Hz) |
