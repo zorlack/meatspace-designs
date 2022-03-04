@@ -17,7 +17,7 @@
 | Material, Plasma Cutting, Delivery | JOB | 1 | $811 | Custom Steel Cuttting to 1/16 Tolerance |
 | **Input Side** | | | | |
 | 3 Phase Electric Motor | EA | 1 | $600** | General Electric 2HP TEFC 5KE48WN8167 |
-| Reduction Worm Gear | EA | 1 | $700** | Morse 175Q140LR5 5:1 |
+| Reduction Worm Gear | EA | 1 | $700*** | Morse 175Q140LR5 5:1 |
 | Adjustable Motor-Mounting Base | EA | 1 | $40 | [62035K23](https://www.mcmaster.com/62035K23) Fits NEMA 145 and NEMA 145T Frames|
 | Roller Chain Sprocket 11 Teeth | EA | 2 | $17 | [6280K654](https://www.mcmaster.com/6280K654) ANSI 40 Chain, 11 Teeth, for 7/8" Shaft Diameter |
 | Motor Hold-Down Bolts | PACK | 1 | $7 | [92865A211](https://www.mcmaster.com/92865A211) Medium-Strength Grade 5 Bolt, 3/8"-24 Thread, 1/2" Long |
