@@ -195,9 +195,9 @@ As some risk is unavoidable, my analysis will focus on mitigation strategies.
 | Risk of entanglement | **Requirements:** Operator must have a clear view of the turntable. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
 | Risk of operator/integrator ignorance | **Requirements:** All safety requirements and warnings must be clearly printed on a label applied to the machine. Documentation must be made available. |
 
-#### Liability
+### Liability
 
-This design is available for use under the [Creative Commons Attribution 4.0 International license](../LICENSE).
+This design is available for use under the [Creative Commons Attribution 4.0 International license](../LICENSE). By using this design you agree to the terms of this license.
 
 The license includes the following language, which you should read:
 
