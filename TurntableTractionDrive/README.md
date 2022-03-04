@@ -178,7 +178,7 @@ As it's intended use involves live actors on a rotating stage, safety must be co
 
 A turntable may pose a hazard on set even when operated manually by backstage technicians, however, unlike backstage technicians this machine doesn't know to stop because a piece of scenery is late during a shift. Also, unlike a backstage technician, under the right circumstances this machine can summon inhuman amounts of torque. 
 
-:warning: **Due to its power and remoteness this machine is not designed as part of an automation system. Rather, it is intended to be manually operated by a user with direct line-of-sight to the turntable.**
+:warning: **Due to its power and remoteness this machine is not designed as part of an automation system. Rather, it is intended to be manually operated by a user with a clear view of the turntable.**
 
 As some risk is unavoidable, my analysis will focus on mitigation strategies.
 
@@ -186,12 +186,13 @@ As some risk is unavoidable, my analysis will focus on mitigation strategies.
 | -- | -- |
 | Electrical shock hazard | **Requirement:** Ground VFD appropriately to input mains. Ground motor appropriately to VFD. Ground chassis appropriately to the motor chassis. |
 | Pinching hazards from rotating internal equipment and rotating top sprocket |  **Requirement:** Turntable Traction Drive must be in a fully enclosed secure area during operation. |
-| Pinching/Crushing hazards between traction wheels and turntable edge | **Requirement:** Interface between the turntable and the tractiondrive must be fully enclosed during operation. |
-| Risk of unexpected start | Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
+| Pinching/Crushing hazards between traction wheels and turntable edge | **Requirement:** Interface between the turntable and the traction drive must be fully enclosed during operation. |
+| Risk of unexpected start | **Requirement:** Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
 | Risk of fall due to sudden acceleration | Use conservative values for `f01`, `f02`, and `f03`. |
 | Risk of fall due to overspeed | Set a conservative hard frequency limit using `a61` |
 | Risk of crushing | #UNKNOWN# Investigate `B_12` and current overload protection. |
-| Risk of crushing because of external scenery-based crush points. | **Requirement:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. |
+| Risk of crushing because of external scenery-based crush points. | **Requirement:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
+| Risk of entanglement | **Requirement:** Operator must have a clear view of the turntable. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
 
 ## VFD Configuration
 
