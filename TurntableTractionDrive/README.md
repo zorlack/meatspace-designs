@@ -224,11 +224,6 @@ The license includes the following language, which you should read:
          DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
          IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
 
-      c. The disclaimer of warranties and limitation of liability provided
-         above shall be interpreted in a manner that, to the extent
-         possible, most closely approximates an absolute disclaimer and
-         waiver of all liability.
-
 In plain language: **I don't guarantee that this design works as intended, and I am not liable for any harm resulting from your use of this design.**
 
 ## VFD Configuration
