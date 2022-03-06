@@ -172,6 +172,8 @@ On the left-hand of the machine we ran chain from a sprocket mounted on the top 
 
 During our initial assembly we waited to weld the top until we verified that everything fit correctly. This isn't neccesary since all the hardware can be swapped-out even after the chassis is fully welded. After our test assembly we ran the machine at speed, adjusted it and then removed all the hardware for paint. We painted the chassis using oil-based black satin-finish paint.
 
+<image alt="Painted with handles" src="images/painted-with-handles.jpg" width=300 />
+
 We also welded on some store-bought handles in order to make moving the machine slightly less cumbersome.
 
 ## Integration
