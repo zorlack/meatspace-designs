@@ -170,6 +170,10 @@ The right-angle (Left/Right AKA Top/Bottom) configuration of the gear-reducer al
 
 On the left-hand of the machine we ran chain from a sprocket mounted on the top shaft of the gear-reducer. On this machine the chain is a bit too close to the top plate. In our next revision we'll try to lower the motor 1/4" by eliminating the motor gusset.
 
+During our initial assembly we waited to weld the top until we verified that everything fit correctly. This isn't neccesary since all the hardware can be swapped-out even after the chassis is fully welded. After our test assembly we ran the machine at speed, adjusted it and then removed all the hardware for paint. We painted the chassis using oil-based black satin-finish paint.
+
+We also welded on some store-bought handles in order to make moving the machine slightly less cumbersome.
+
 ## Integration
 
 ### Safety
