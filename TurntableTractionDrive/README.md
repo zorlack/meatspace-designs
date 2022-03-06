@@ -127,7 +127,7 @@ When testing we found that a far simpler solution was to use ratchet straps to d
 
 ### Chain Tension
 
-Chain based system must be kept in tension to keep the chain from slipping off the drive sprocket. In order to apply tension to the system we mounted the drive motor on top of an adjustable sled from McMaster. However, we noticed too late that the sled is meant to adjust the position of a motor mounted perpendicularly to the track of the sled. My design called for the motor to be mounted parallel with the track.
+Chain based system must be kept in tension to keep the chain from slipping off the drive sprocket. In order to apply tension to the system we mounted the drive motor on top of [an adjustable sled from McMaster](https://www.mcmaster.com/62035K23/). However, we noticed too late that the sled is meant to adjust the position of a motor mounted perpendicularly to the track of the sled. My design called for the motor to be mounted parallel with the track.
 
 <image alt="Motor Modifications" src="images/motor-mods.jpg" width=200 />
 
