@@ -37,7 +37,7 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 | Chassis Weight | ~112 Lbs |
 | Total Weight | ~228 Lbs |
 | Number of Parts | 60 |
-| Minimum Turntable Size | 7' Diameter |
+| Minimum Turntable Size | 6' Diameter |
 | Maximum Turntable Size | Proven on a 23' diameter Turntable with steel and wood scenery. |
 
 ### Powerplant Details
@@ -103,7 +103,7 @@ In addition to the gear reduction on the front-end of the motor, I wanted to fur
 | -- | -- | -- |
 | Drive Wheel Circumference (feet) | 2π * .25' | 1.57' Foot Circumference |
 | Linear Feet Per Minute | 124 RPM * 1.57' | 194 Feet Per Minute |
-| 7' Diameter Turntable Max Speed | 194 FPM ÷ 22' | 8.8 RPM |
+| 6' Diameter Turntable Max Speed | 194 FPM ÷ 19' | 10.2 RPM (Measured: 11.3 RPM) |
 | 16' Diameter Turntable Max Speed | 194 FPM ÷ 50' | 3.8 RPM |
 | 24' Diameter Turntable Max Speed | 194 FPM ÷ 75' | 2.6 RPM |
 
