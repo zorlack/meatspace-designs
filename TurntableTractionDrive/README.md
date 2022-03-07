@@ -105,7 +105,7 @@ In addition to the gear reduction on the front-end of the motor, I wanted to fur
 | Linear Feet Per Minute | 124 RPM * 1.57' | 194 Feet Per Minute |
 | 6' Diameter Turntable Max Speed | 194 FPM ÷ 19' | 10.2 RPM (Measured: 11.3 RPM) |
 | 16' Diameter Turntable Max Speed | 194 FPM ÷ 50' | 3.8 RPM |
-| 24' Diameter Turntable Max Speed | 194 FPM ÷ 75' | 2.6 RPM |
+| 23' Diameter Turntable Max Speed | 194 FPM ÷ 72' | 2.6 RPM (Measured: 2.7 RPM)|
 
 **Integration Note:** *If you find that the drive speed is not large enough for your large turntable design, your best bet, depending on your choise of motor and VFD, is to overdrive the motor past 60Hz. (Most VFDs let you run up to 360Hz, but you will want to check your motor and drive documentation first.) Alternatively you could swap out the 6" drive wheels for a larger diameter wheel, but be aware that this will reduce the available startup torque.*
 
