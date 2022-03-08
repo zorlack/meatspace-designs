@@ -72,16 +72,3 @@ In order to vary the speed of drive motor we must use a Variable Frequency Drive
 | Input Power | 120VAC 15A |
 | Output Power | 0.75 KW (1 HP) |
 | Output Range | 0 - 360Hz |
-
-
-
-
-
-
-### Bill Of Materials
-
-I've tried to use off-the-shelf parts as much as possible in order to make this design accessible. 
-
-A Complete Bill Of Materials is available here: [Bill Of Materials](BOM.md)
-
-
