@@ -2,7 +2,12 @@
 
 | Component | Units | Quantity | Unit Cost | Notes |
 | -- | -- | -- | -- | -- |
+| **Control** | | | | |
 | Hitachi L100-007NFU | EA | 1 | $200* | Variable Frequency Drive |
+| VFD Power Cable | EA | 1 | | #10 3-Wire Appliance Cable |
+| VFD Power Connector | EA | 1 | | NEMA 5-15P |
+| Control Pendant | EA | 1 | $36 | [Compact Crane Control Pendant](https://www.amazon.com/dp/B077NG3SLZ) |
+| Emergency Stop Buttons | PACK | 1 | $14 | [Mushroom Cap E-Stop Buttons](https://www.amazon.com/dp/B07G76MMMZ) |
 | **Chassis** | | | | |
 | Bottom Plate | EA | 1 | -- | Custom 1/4" Steel from [BottomPlate-TotalSketch.dxf](dxfs/BottomPlate-TotalSketch.dxf) |
 | Motor Gusset | EA | 1 | -- | Custom 1/4" Steel from [MotorGusset-TotalSketch.dxf](dxfs/MotorGusset-TotalSketch.dxf) |
@@ -15,6 +20,7 @@
 | Front Plate | EA | 1 | -- | Custom 1/4" Steel from [FrontPlate-TotalSketch.dxf](dxfs/FrontPlate-TotalSketch.dxf) |
 | Top Plate | EA | 1 | -- | Custom 1/4" Steel from [TopPlate-TotalSketch.dxf](dxfs/TopPlate-TotalSketch.dxf) |
 | Material, Plasma Cutting, Delivery | JOB | 1 | $811 | Custom Steel Cuttting to 1/16 Tolerance |
+| Safety Label | JOB | 1 | -- | Custom Printed Vinyl Sticker from [TurntableTractionDriveLabel.pdf](TurntableTractionDriveLabel.pdf)  |
 | **Input Side** | | | | |
 | 3 Phase Electric Motor | EA | 1 | $600** | General Electric 2HP TEFC 5KE48WN8167 |
 | Reduction Worm Gear | EA | 1 | $700*** | Morse 175Q140LR5 5:1 |
@@ -36,8 +42,6 @@
 | Long Machine Key Steel | PACK | 1 | $9 | [98870A192](https://www.mcmaster.com/98870A192) - 3/16" x 3/16", 3" Long, Undersized, Pack of 10 |
 | #40 Roller Chain and Tools | PACK | 1 | $36 | [13 Pieces Roller Chain Disassembly Kit](https://www.amazon.com/dp/B094VL4JDD) |
 | Motor Cable | EA | 1 | | #10 4-Wire Appliance Cable |
-| VFD Power Cable | EA | 1 | | #10 3-Wire Appliance Cable |
-| VFD Power Connector | EA | 1 | | NEMA 5-15P |
 | 3/8-24 Drill and Tap Kit | EA | 2 | $10 | [Drill America - POU3/8-24 3/8"-24](https://www.amazon.com/dp/B071XX6K6Z) |
 
 **Total Cost Estimate: $2,930**
