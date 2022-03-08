@@ -44,7 +44,7 @@
 | Motor Cable | EA | 1 | | #10 4-Wire Appliance Cable |
 | 3/8-24 Drill and Tap Kit | EA | 2 | $10 | [Drill America - POU3/8-24 3/8"-24](https://www.amazon.com/dp/B071XX6K6Z) |
 
-**Total Cost Estimate: $2,930**
+**Total Cost Estimate: $2,980**
 
 \* Price Estimate. There are lots of different VFDs to choose from. Choose something that's not too cheep and appropriate for your input and output power needs.
 
