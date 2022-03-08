@@ -46,7 +46,7 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 | Depth |  33" |
 | Chassis Weight | ~112 Lbs |
 | Total Weight | ~228 Lbs |
-| Number of Parts | 60 |
+| Number of Parts | 63 |
 | Minimum Turntable Size | 6' Diameter |
 | Maximum Turntable Size | Proven on a 23' diameter Turntable with steel and wood scenery. |
 
