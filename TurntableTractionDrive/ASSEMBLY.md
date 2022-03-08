@@ -1,5 +1,11 @@
 # Turntable Taction Drive Assembly Guide
 
+## Sourcing Parts
+
+I've tried to use off-the-shelf parts as much as possible in order to make this design accessible. 
+
+A Complete Bill Of Materials is available here: [Bill Of Materials](BOM.md)
+
 ## Assembly
 
 Assembly took two days, with the majority of time being spent drilling and tapping holes. All bolt holes are undersized for 3/8-24 with the idea being that plasma-cut holes are not very accurate so it's better to drill them after the fact and then tap the perfectly drilled holes. This worked fairly well but we broke plenty of bits and taps.
