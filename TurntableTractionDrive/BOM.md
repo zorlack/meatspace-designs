@@ -27,6 +27,7 @@
 | Adjustable Motor-Mounting Base | EA | 1 | $40 | [62035K23](https://www.mcmaster.com/62035K23) Fits NEMA 145 and NEMA 145T Frames|
 | Roller Chain Sprocket 11 Teeth | EA | 2 | $17 | [6280K654](https://www.mcmaster.com/6280K654) ANSI 40 Chain, 11 Teeth, for 7/8" Shaft Diameter |
 | Motor Hold-Down Bolts | PACK | 1 | $7 | [92865A211](https://www.mcmaster.com/92865A211) Medium-Strength Grade 5 Bolt, 3/8"-24 Thread, 1/2" Long |
+| Motor Cable | EA | 1 | | #10 4-Wire Appliance Cable |
 | **Output Side** | | | | |
 | Pillow Block Bearing  | PACK | 1 | $5 | [PGN - UCF204-12](https://www.amazon.com/dp/B07QQJP8SV), Pack of 4 |
 | Keyed Rotary Shaft | EA | 2 | $21 | [1497K116](https://www.mcmaster.com/1497K116) - Fully Keyed, 3/4" Diameter, 9" Long |
@@ -41,7 +42,6 @@
 | Short Machine Key Steel | PACK | 1 | $3 | [98870A140](https://www.mcmaster.com/98870A140) - 3/16" x 3/16", 1" Long, Undersized, Pack of 10 |
 | Long Machine Key Steel | PACK | 1 | $9 | [98870A192](https://www.mcmaster.com/98870A192) - 3/16" x 3/16", 3" Long, Undersized, Pack of 10 |
 | #40 Roller Chain and Tools | PACK | 1 | $36 | [13 Pieces Roller Chain Disassembly Kit](https://www.amazon.com/dp/B094VL4JDD) |
-| Motor Cable | EA | 1 | | #10 4-Wire Appliance Cable |
 | 3/8-24 Drill and Tap Kit | EA | 2 | $10 | [Drill America - POU3/8-24 3/8"-24](https://www.amazon.com/dp/B071XX6K6Z) |
 
 **Total Cost Estimate: $2,980**
