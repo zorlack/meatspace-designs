@@ -201,6 +201,7 @@ As some risk is unavoidable, my analysis will focus on mitigation strategies.
 | Risk of crushing | #UNKNOWN# Investigate `B_12` and current overload protection. |
 | Risk of crushing because of external scenery-based crush points. | **Requirements:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
 | Risk of entanglement | **Requirements:** Operator must have a clear view of the turntable. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
+| Risk of slipping on a free-rotating turntable | **Requirement** A parking brake must be employed when the Turntable Traction Drive is not in use. All on-stage personel must be instructed on the free-rotating-nature of the turntable. |
 | Risk of operator/integrator ignorance | **Requirements:** All safety requirements and warnings must be clearly printed on a label applied to the machine. Documentation must be made available. |
 
 ### Liability
