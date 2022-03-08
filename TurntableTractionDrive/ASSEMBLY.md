@@ -27,3 +27,41 @@ During our initial assembly we waited to weld the top until we verified that eve
 <image alt="Painted with handles" src="images/painted-with-handles.jpg" width=300 />
 
 We also welded on some store-bought handles in order to make moving the machine slightly less cumbersome.
+
+## Motor Wiring
+
+Generally speaking wiring up a 3-phase motor is a matter of consulting the label on the side of the motor and connecting the appropriate wires to the VFD. Typically you will connect 3 hot legs and a ground to the VFD. There is no need for a seperate neutral connection.
+
+In our General Electric motor the connections look like this:
+
+| VFD Connection | Motor Connection |
+| -- | -- |
+| Ground | Chassis Ground |
+| Leg 1 | Brown and Orange |
+| Leg 2 | Blue and Pink | 
+| Leg 3 | Tan and Red |
+| (No Connection)     | Yellow, Blue, Purple (Connected together for Wye configuration) |
+
+Be sure to use an appropriate strain relief or grommet to prevent the knockout of the motor's wiring box from abrading the power cable.
+
+## VFD Wiring
+
+Follow your VFD's instructions for mains wiring. We are able to run our Hitachi L100 off of a single 20A 120VAC circuit. For higher-load applications it may be neccesary to use a VFD with a larger input requirement.
+
+For control wiring we have decided used 4-pin XLR. **The VFD produces a 24VDC reference signal which we intend to use in our control pendant.** For this reason it's important that our choice of cabling no be prone to confusion. 4-pin XLR is unlikely to be accidentally plugged into a dimmer or a soundboard. There is some risk of confusion around theater headsets and around scrollers and TV cameras, but generally it's a lightly-used form factor.
+
+| XLR Pin Number | VFD Pin | Note |
+| -- | -- | -- |
+| `XLR Pin 1` | `P24` 24VDC Reference | |
+| `XLR Pin 2` | `Terminal 1` Forward RUN | Default Configuration |
+| `XLR Pin 3` | `Terminal 2` Reverse RUN | Default Configuration |
+| `XLR Pin 4` | `Terminal 3` External TRIP | Configure to `EXT` by setting `C_03` to `12` |
+
+In this configuraion you may peform the following operations:
+
+| Operation | Condition |
+| -- | -- |
+| Run Forward | Short `XLR Pin 1` to `XLR Pin 2` |
+| Run Reverse | Short `XLR Pin 1` to `XLR Pin 3` |
+| Emergency Stop | Short `XLR Pin 1` to `XLR Pin 4` |
+
