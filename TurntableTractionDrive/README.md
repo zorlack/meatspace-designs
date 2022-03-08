@@ -182,7 +182,7 @@ We also welded on some store-bought handles in order to make moving the machine 
 
 As it's intended use involves live actors on a rotating stage, safety must be considered seriously. 
 
-:warning: **The Turntable Traction Drive is a dangerous machine. Using it should not be taken lightly. Caution and care must be taken in every integration to ensure that safe operating parameters are configured.**
+:warning: **The Turntable Traction Drive is a powerful machine. Using it should not be taken lightly. Caution and care must be taken in every integration to ensure that safe operating parameters are configured.**
 
 A turntable may pose a hazard on set even when operated manually by backstage technicians, however, unlike backstage technicians this machine has no brain. It doesn't know to stop because a piece of scenery is late during a scene-shift. It is not context-aware. Also, unlike a backstage technician, under the right circumstances this machine can summon inhuman amounts of torque.
 
