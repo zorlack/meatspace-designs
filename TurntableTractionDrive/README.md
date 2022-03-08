@@ -15,9 +15,9 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 | [Creative Commons Attribution 4.0 International](../LICENSE) | The license under-which these plans are made available. |
 | [Bill Of Materials](BOM.md) | A list of the parts required to build this machine. |
 | [Design Document](DESIGN.md) | Discussion of design and considerations made. |
-| [Assembly Instructions](ASSEMBLY.md) |  Instructions on how to build your own Turntable Traction Drive.  |
-| [Integration Instructions](INTEGRATION.md) | Instructions on how to integrate this machine into your set desgin. |
-| [Operation Instructions](OPERATION.md) | Instructions on how to operate this machine. |
+| [Assembly Guide](ASSEMBLY.md) |  Instructions on how to build your own Turntable Traction Drive.  |
+| [Integration Guide](INTEGRATION.md) | Instructions on how to integrate this machine into your set desgin. |
+| [Operation Guide](OPERATION.md) | Instructions on how to operate this machine. |
 
 
 ## Resources
