@@ -52,7 +52,9 @@ Next the `Caster Gussets` were welded into place. We used the tabs on the `Pushe
 
 Next the two `Side Panels`, the `Front Plate`, and the `Pusher Plates` are welded. We set them all in their slots and put the `Top Plate` on top to lock them in place. 90-degree mag-clamps locked everything in place while we put in tack welds. We then then layed about 3" of bead down on either side of each piece. 
 
-In almost all cases we're welding an edge to a non-edge piece of steel. It's important to manage your heat to avoid blasting away the edges of the steel. Even on our low-powered welder we had to take care.
+In almost all cases we're welding an edge to a non-edge piece of steel. **It's important to manage your heat to avoid blasting away the edges of the steel.** Even on our low-powered welder we had to take care.
+
+In our process we didn't weld the top plate until after we test-fit all the hardware. If I had to do it again I would weld the top plate immediately. All the steel moved a bit as the heat worked its way out. This made fitting the top plate difficult the next day.
 
 ## Hardware
 
