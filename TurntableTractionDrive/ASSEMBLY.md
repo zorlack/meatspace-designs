@@ -65,3 +65,18 @@ In this configuraion you may peform the following operations:
 | Run Reverse | Short `XLR Pin 1` to `XLR Pin 3` |
 | Emergency Stop | Short `XLR Pin 1` to `XLR Pin 4` |
 
+## Control Pendant Wiring
+
+Rather than designing a bespoke pendant I decided to choose from one of the many "Lift Control" pendants available on Amazon. These pendants all seem to feature a rugged enclosure, an e-stop switch and two momentary push buttons. (One added benefit of some crane controls is that they tend to feature mechanical interlocks to prevent the clockwise button and the counter-clockwise button from being pressed at the same time. This isn't strictly necessary but may prevent operator confusion.)
+
+<image alt="Left Drive Wheel" src="images/pendant.jpg" width=300 />
+
+For our implementation we have made the top momentary switch the `RUN FORWARD` button. The bottom momentary switch is the `RUN REVERSE` button:
+
+| Connection | Purpose |
+| -- | -- |
+| `XLR Pin 1` TO `EMERGENCY STOP LEFT SIDE` | 24VDC for the pendant will travel through the e-stop button. If e-stop is activated power is interrupted. |
+| `EMERGENCY STOP RIGHT SIDE` TO `RUN FORWARD LEFT SIDE` | Send 24VDC to the `RUN FORWARD` button when e-stop is not engaged." |
+| `EMERGENCY STOP RIGHT SIDE` TO `RUN REVERSE LEFT SIDE` | Send 24VDC to the `RUN REVERSE` button when e-stop is not engaged." |
+| `RUN FORWARD RIGHT SIDE` TO `XLR Pin 2` | Send 24VDC to the VFD when `RUN FORWARD` is pressed and the e-stop is not engaged." |
+| `RUN REVERSE RIGHT SIDE` TO `XLR Pin 3` | Send 24VDC to the VFD when `RUN REVERSE` is pressed and the e-stop is not engaged." |
