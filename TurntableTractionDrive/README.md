@@ -36,6 +36,9 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 
 ## Media
 
+- [Assembled Chassis Before Welding (photo)](parts-fitup.jpg)
+  
+  <image alt="Assembled Chassis Before Welding (photo)" src="images/parts-fitup.jpg" width=400 />
 
 - [Initial Bench Test (video)](https://youtu.be/k4kjQTp1Dig)
   
