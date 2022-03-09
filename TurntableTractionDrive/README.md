@@ -19,6 +19,13 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 | [Integration Guide](INTEGRATION.md) | Instructions on how to integrate this machine into your set desgin. |
 | [Operation Guide](OPERATION.md) | Instructions on how to operate this machine. |
 
+## Checklists
+
+| Document Name | Description |
+| -- | -- |
+| [Integration Checklist](INTEGRATION.md#integration-checklist) | A list of integration requirements for safe scenic integration of the Turntable Traction Drive. |
+| [Operations Checklist](OPERATION.md#operations-checklist) | A "preshow" checklist to verify before each use of the Turntable Traction Drive. |
+
 
 ## Resources
 
