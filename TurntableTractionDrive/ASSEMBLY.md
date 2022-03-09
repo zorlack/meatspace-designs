@@ -1,4 +1,4 @@
-# Turntable Taction Drive Assembly Guide
+# Turntable Traction Drive Assembly Guide
 
 I've tried to use off-the-shelf parts as much as possible in order to make this design accessible. The vast majority of the hardware is sourced from McMaster-Carr. This should provide a reliable source for maintenance and customizations. In some cases I've gone to Amazon and Ebay to get parts which are otherwise too expensive.
 
