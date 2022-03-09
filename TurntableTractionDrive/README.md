@@ -6,7 +6,9 @@ This is my design for a Turntable Traction Drive. It's meant to turn a large the
 
 I was inspired to take on this project by Alan Hendrickson's chain-driven design featured in [Technical Designs Solutions for Theatre Volume 2 (Sammler/Harvey 2002)](https://www.amazon.com/Technical-Design-Solutions-Theatre-Collection/dp/0240804929). His design shows how a chain drive can rotate a turntable. I was interested in designing an easier-to-integrate "bolt-on" solution.
 
-:information_source: This project has moved to it's own repository: [https://github.com/zorlack/turntable-traction-drive](https://github.com/zorlack/turntable-traction-drive)
+## :information_source: New Repository
+
+This project has moved to it's own repository: [https://github.com/zorlack/turntable-traction-drive](https://github.com/zorlack/turntable-traction-drive)
 
 There you can find the project files and critical documentation, including the [Integration Checklist](https://github.com/zorlack/turntable-traction-drive/blob/master/INTEGRATION.md#integration-checklist) and the [Operations Checklist](https://github.com/zorlack/turntable-traction-drive/blob/master/OPERATION.md#operations-checklist).
 
