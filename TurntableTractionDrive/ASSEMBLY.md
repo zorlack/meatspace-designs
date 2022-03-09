@@ -34,11 +34,29 @@ This may be the hardest part to source cheaply. Ebay may be your best bet. You c
 
 ## Sourcing the Custom Steel Parts
 
-I found that it was a relatively simple matter to provide a local steel shop with the [2D DXFs](dxfs/) and the [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf). The PDF makes it easy for a sales guy to create a quote without having to CAD software and communicates expectations around minimum hole diameter and tolerances.
+I found that it was a relatively simple matter to provide a local steel shop with the [2D DXFs](dxfs/) and the [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf). The PDF makes it easy for a sales guy to quote the job without needing CAD. The PDF also communicates expectations around minimum hole diameter and tolerances.
 
-## Assembly
+The design allows for 1/16 of slop between slots and tabs. The steel fabiractor must be able to hold 1/16th tolerance.
 
-Assembly took two days, with the majority of time being spent drilling and tapping holes. All bolt holes are undersized for 3/8-24 with the idea being that plasma-cut holes are not very accurate so it's better to drill them after the fact and then tap the perfectly drilled holes. This worked fairly well but we broke plenty of bits and taps.
+## Welding
+
+Assembly took two days, with the majority of time being spent drilling and tapping holes. The welding of the chassis was a bit time consuming owing to underpowered welder. We used flux-core .030 wire on our 120VAC Hobart Handler 140. 
+
+We first welded the `Motor Gusset` to the base plate using c-clamps for hold-down. The `Motor Gusset` has two long weld slots cut into it in front of and behind the motor bolts. These slots allow for a good strong hold to prevent the gusset from separating from the baseplate.
+
+<image alt="Right Caster Gusset Welded" src="images/right-gusset.jpg" width=400 />
+
+Next the `Caster Gussets` were welded into place. We used the tabs on the `Pusher Plates` to locate the slots before welding. C-clamps were used for hold-down. A generous weld-pocket is provided in the drawing in between the slot for the `Pusher Plate` and the hole for the axle.
+
+<image alt="Initial Welds" src="images/initial-welds.jpg" width=400 />
+
+Next the two `Side Panels`, the `Front Plate`, and the `Pusher Plates` are welded. We set them all in their slots and put the `Top Plate` on top to lock them in place. 90-degree mag-clamps locked everything in place while we put in tack welds. We then then layed about 3" of bead down on either side of each piece. 
+
+In almost all cases we're welding an edge to a non-edge piece of steel. It's important to manage your heat to avoid blasting away the edges of the steel. Even on our low-powered welder we had to take care.
+
+## Hardware
+
+In order to mount hardware you must drill then tap the bolt holes. In this design, all bolt holes are undersized for 3/8-24 with the idea being that plasma-cut holes are not very accurate so it's better to drill them after the fact and then tap the perfectly drilled holes. This worked fairly well but we broke plenty of bits and taps.
 
 <image alt="Drilling and Tapping" src="images/drilling-tapping.jpg" width=400 />
 
