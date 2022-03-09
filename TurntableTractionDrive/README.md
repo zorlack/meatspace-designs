@@ -39,6 +39,10 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 - [Full Speed Run of 6' Turntable (video)](https://youtu.be/193OzLW5t50)
 
   [![Full Speed Run of 6' Turntable (video)](video/small-turntable-60hz.gif)](https://youtu.be/193OzLW5t50)
+  
+- [Rehearsing on a 6' Turntable (video)](https://youtu.be/gqXYZ6G5New)
+
+  [![Rehearsing on a 6' Turntable (video)](video/control-example-small.gif)](https://youtu.be/gqXYZ6G5New)
 
 ## Turntable Traction Drive Specifications
 
