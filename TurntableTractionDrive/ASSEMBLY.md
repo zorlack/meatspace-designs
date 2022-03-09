@@ -1,10 +1,40 @@
 # Turntable Taction Drive Assembly Guide
 
-## Sourcing Parts
-
-I've tried to use off-the-shelf parts as much as possible in order to make this design accessible. 
+I've tried to use off-the-shelf parts as much as possible in order to make this design accessible. The vast majority of the hardware is sourced from McMaster-Carr. This should provide a reliable source for maintenance and customizations. In some cases I've gone to Amazon and Ebay to get parts which are otherwise too expensive.
 
 A Complete Bill Of Materials is available here: [Bill Of Materials](BOM.md)
+
+## Sourcing The Motor
+
+The motor, and gearbox can be the most difficult parts to source. If you try to match precisely what I have used you will end up paying top-dollar. A more economical way to source the powertrain is to go on ebay and look for a used parts. Here are the important parameters:
+
+| Feature | Value |
+| -- | -- |
+| NEMA Frame | 145TC |
+| RPM | 1725 |
+| Voltage | 208-230 |
+| Phases | 3 |
+
+The frame designation describes the precise size and layout of the motor bolts and face. Motor RPM is listed because a 1725 (or 1800RPM) motor is better suited for high-torque applications. Voltage isn't really your problem (since the VFD will be creating the motor voltage) all you really want to do is make sure you're selected a 200V class motor. Three phase is specified because this is necesary for the inverter to control the speed of the motor.
+
+If you deviate too much from this prescription you may have to customize the `Base Plate` and `Motor Gusset` parts in order to fit your motor. You will also have to make sure your gear-reduction fits correctly.
+
+## Sourcing The Gearbox
+
+The gearbox we're using, a Morse 175Q140LR5, has a couple of important features:
+
+| Feature | Value |
+| -- | -- |
+| Drive Ratio | 5:1 |
+| Frame | 143/145TC |
+| Shaft Output | Left + Right |
+| Output Shaft Diameter | 7/8" |
+
+This may be the hardest part to source cheaply. Ebay may be your best bet. You can be a bit flexible regarding the drive ratio and the output shaft diameter (if you vary the output shaft diameter you will have to choosed different sprockets from the BOM.)
+
+## Sourcing the Custom Steel Parts
+
+I found that it was a relatively simple matter to provide a local steel shop with the [2D DXFs](dxfs/) and the [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf). The PDF makes it easy for a sales guy to create a quote without having to CAD software and communicates expectations around minimum hole diameter and tolerances.
 
 ## Assembly
 
@@ -21,6 +51,8 @@ The right-angle (Left/Right AKA Top/Bottom) configuration of the gear-reducer al
 <image alt="Left Drive Wheel" src="images/top-chain.jpg" width=400 />
 
 On the left-hand of the machine we ran chain from a sprocket mounted on the top shaft of the gear-reducer. On this machine the chain is a bit too close to the top plate. In our next revision we'll try to lower the motor 1/4" by eliminating the motor gusset.
+
+<image alt="Painted with handles" src="images/painted-chassis.jpg" width=300 />
 
 During our initial assembly we waited to weld the top until we verified that everything fit correctly. This isn't neccesary since all the hardware can be swapped-out even after the chassis is fully welded. After our test assembly we ran the machine at speed, adjusted it and then removed all the hardware for paint. We painted the chassis using oil-based black satin-finish paint.
 
