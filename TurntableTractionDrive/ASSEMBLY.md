@@ -94,7 +94,7 @@ In our General Electric motor the connections look like this:
 | Leg 1 | Brown and Orange |
 | Leg 2 | Blue and Pink | 
 | Leg 3 | Tan and Red |
-| (No Connection)     | Yellow, Blue, Purple (Connected together for Wye configuration) |
+| (No Connection)     | Yellow, Black, Purple (Connected together for Wye configuration) |
 
 Be sure to use an appropriate strain relief or grommet to prevent the knockout of the motor's wiring box from abrading the power cable.
 
