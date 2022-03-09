@@ -35,6 +35,10 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 - [High Speed Run (video)](https://youtu.be/5Oqq8lbxnWo)
 
   [![High Speed Run](video/full-speed-run-small.gif)](https://youtu.be/5Oqq8lbxnWo)
+  
+- [High Speed Run of 6' Turntable (video)](https://youtu.be/193OzLW5t50)
+
+  [![High Speed Run of 6' Turntable (video)](/video/small-turntable-60hz.gif)](https://youtu.be/193OzLW5t50)
 
 ## Turntable Traction Drive Specifications
 
