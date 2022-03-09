@@ -84,6 +84,8 @@ We also welded on some store-bought handles in order to make moving the machine 
 
 Generally speaking wiring up a 3-phase motor is a matter of consulting the label on the side of the motor and connecting the appropriate wires to the VFD. Typically you will connect 3 hot legs and a ground to the VFD. There is no need for a seperate neutral connection.
 
+<image alt="Motor Wiring" src="images/motor-wiring.jpg" width=300 />
+
 In our General Electric motor the connections look like this:
 
 | VFD Connection | Motor Connection |
