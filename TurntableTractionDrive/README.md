@@ -14,6 +14,7 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 | -- | -- |
 | [Creative Commons Attribution 4.0 International](../LICENSE) | The license under-which these plans are made available. |
 | [Bill Of Materials](BOM.md) | A list of the parts required to build this machine. |
+| [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf) | A one-page PDF helpful when ordering custom cut steel. |
 | [Design Document](DESIGN.md) | Discussion of design and considerations made. |
 | [Assembly Guide](ASSEMBLY.md) |  Instructions on how to build your own Turntable Traction Drive.  |
 | [Integration Guide](INTEGRATION.md) | Instructions on how to integrate this machine into your set desgin. |
@@ -26,11 +27,16 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 | [Integration Checklist](INTEGRATION.md#integration-checklist) | A list of integration requirements for safe scenic integration of the Turntable Traction Drive. |
 | [Operations Checklist](OPERATION.md#operations-checklist) | A "preshow" checklist to verify before each use of the Turntable Traction Drive. |
 
+## Part Files
 
-## Resources
+| Part | Description |
+| -- | -- |
+| [Chassis Parts](dxfs/) | 2D CAD drawings of chassis parts to be cut from 1/4" mild steel. | 
+| [Safety Placard](TurntableTractionDriveLabel.pdf) | A PDF to be made into a printable label and applied to the top of the chassis. | 
 
-- [Parts Overview](TurntableTractionDrive-PartsOverview.pdf)
-- [Custom Part DXFs](dxfs/)
+## Media
+
+
 - [Initial Bench Test (video)](https://youtu.be/k4kjQTp1Dig)
   
   [![Bench Test](video/bench-run-small.gif)](https://youtu.be/k4kjQTp1Dig)
